@@ -27,19 +27,18 @@ export default function Projects() {
                 className="bg-white rounded-2xl shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 border border-gray-100"
               >
 
-                {/* IMAGE */}
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="rounded-t-2xl h-40 w-full object-cover"
-                />
-
                 {/* CONTENT */}
                 <div className="p-6">
 
                   <h3 className="text-xl font-semibold mb-2">
                     {project.title}
                   </h3>
+
+                   {/* IMAGE */}
+                <img
+                  src={project.image}
+                  className="rounded-t-2xl h-40 w-full object-cover mb-4"
+                />
 
                   <p className="text-gray-600 text-sm mb-4">
                     {project.description}
@@ -74,6 +73,13 @@ export default function Projects() {
                       className="border px-4 py-2 rounded-lg text-sm hover:bg-gray-100 transition"
                     >
                       GitHub
+                    </a>
+                     <a
+                      href={project.slides}
+                      target="_blank"
+                      className="border px-4 py-2 rounded-lg text-sm hover:bg-gray-100 transition"
+                    >
+                      Slides
                     </a>
 
                   </div>

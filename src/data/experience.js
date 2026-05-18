@@ -1,15 +1,5 @@
 export const experiences = [
 
-{
-role: "Student Consultant (Software Developer)",
-company: "Build Fellowship | Open Avenues",
-duration: "Jan 2026 – Ongoing",
-points: [
-"Selected for a software engineering fellowship collaborating with industry professionals to build real-world technology solutions.",
-"Contributing to Wallet Wizard, a full-stack fintech application for personal finance tracking using Agile development workflows.",
-"Developing an AI-powered text generation portal using Large Language Models (LLMs) and NLP techniques to build an end-to-end AI system."
-]
-},
 
 {
 role: "Research Assistant",

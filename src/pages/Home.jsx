@@ -1,3 +1,4 @@
+import profilePic from "../assets/pooja.png";
 export default function Home() {
 
   return (
@@ -10,9 +11,9 @@ export default function Home() {
         {/* Profile Image */}
         <div className="flex justify-center">
           <img
-            src="/images/profile.png"
+            src={profilePic}
             alt="Pooja Sukhdeve"
-            className="w-64 rounded-xl object-cover"
+            className="w-96 rounded-xl object-cover"
           />
         </div>
 
@@ -597,24 +598,24 @@ WORK <span className="text-black">EXPERIENCE</span>
 
 <div className="relative border-l border-white/30 ml-6 space-y-12">
 
+
 {/* Experience 1 */}
 <div className="ml-8">
 <div className="absolute -left-3 w-6 h-6 bg-white rounded-full"></div>
 
 <h3 className="text-xl font-semibold">
-2026 — Student Consultant
+2024 — Present Research Assistant
 </h3>
 
 <p className="text-gray-300">
-Build Fellowship – Open Avenues
+Boston University
 </p>
 
 <p className="text-gray-400 text-sm mt-2">
-Building a fintech application (Wallet Wizard) and developing
-an AI-powered text generation platform using LLMs.
+Developing Python visualization modules for visually
+impaired users using pattern-based graphics.
 </p>
 </div>
-
 
 {/* Experience 2 */}
 <div className="ml-8">
@@ -631,25 +632,6 @@ ASVI Systems
 <p className="text-gray-400 text-sm mt-2">
 Developed scalable AWS applications and CI/CD pipelines
 to automate deployments and improve performance.
-</p>
-</div>
-
-
-{/* Experience 3 */}
-<div className="ml-8">
-<div className="absolute -left-3 w-6 h-6 bg-white rounded-full"></div>
-
-<h3 className="text-xl font-semibold">
-2024 — Research Assistant
-</h3>
-
-<p className="text-gray-300">
-Boston University
-</p>
-
-<p className="text-gray-400 text-sm mt-2">
-Developing Python visualization modules for visually
-impaired users using pattern-based graphics.
 </p>
 </div>
 
@@ -740,7 +722,7 @@ Education
 🎓 <b>Boston University</b><br/>
 M.S. Computer Science<br/>
 GPA: 3.59 / 4.00<br/>
-Expected May 2026
+May 2026
 </li>
 
 <li>
