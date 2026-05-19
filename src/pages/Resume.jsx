@@ -28,7 +28,7 @@ export default function Resume() {
           </a>
 
           <a
-            href="https://linkedin.com/in/pooja-sukhdeve-79b897194/"
+            href="https://www.linkedin.com/in/pooja-sukhdeve-79b897194/"
             target="_blank"
             className="px-6 py-3 border border-gray-400 rounded-lg hover:bg-gray-100"
           >

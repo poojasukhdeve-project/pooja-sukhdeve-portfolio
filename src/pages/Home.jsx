@@ -70,21 +70,21 @@ KEY <span className="text-black">HIGHLIGHTS</span>
 <div className="grid md:grid-cols-4 gap-12 text-center">
 
 <div>
-<h3 className="text-5xl font-bold">5+</h3>
+<h3 className="text-5xl font-bold">6+</h3>
 <p className="text-gray-300 mt-2 text-sm">
 Years Industry Experience
 </p>
 </div>
 
 <div>
-<h3 className="text-5xl font-bold">8+</h3>
+<h3 className="text-5xl font-bold">12+</h3>
 <p className="text-gray-300 mt-2 text-sm">
 AI & Software Projects
 </p>
 </div>
 
 <div>
-<h3 className="text-5xl font-bold">10+</h3>
+<h3 className="text-5xl font-bold">5+</h3>
 <p className="text-gray-300 mt-2 text-sm">
 Data Dashboards Built
 </p>
@@ -766,7 +766,7 @@ className="w-16 mb-4"
 />
 
 <a
-href="https://github.com/YOUR_GITHUB"
+href="https://github.com/poojasukhdeve-project?tab=repositories"
 target="_blank"
 className="px-6 py-2 bg-black text-white rounded-lg hover:bg-gray-800"
 >
@@ -783,7 +783,7 @@ className="w-16 mb-4"
 />
 
 <a
-href="https://linkedin.com/in/YOUR_LINKEDIN"
+href="https://www.linkedin.com/in/pooja-sukhdeve-79b897194/"
 target="_blank"
 className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
 >
@@ -841,7 +841,7 @@ Resume
 <div className="flex justify-center gap-6 text-gray-700">
 
 <a
-href="https://github.com/YOUR_GITHUB"
+href="https://github.com/poojasukhdeve-project?tab=repositories"
 target="_blank"
 className="hover:text-black"
 >
@@ -849,7 +849,7 @@ GitHub
 </a>
 
 <a
-href="https://linkedin.com/in/YOUR_LINKEDIN"
+href="https://www.linkedin.com/in/pooja-sukhdeve-79b897194/"
 target="_blank"
 className="hover:text-black"
 >
