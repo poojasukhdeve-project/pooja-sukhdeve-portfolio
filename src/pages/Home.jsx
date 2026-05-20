@@ -25,10 +25,10 @@ export default function Home() {
           </h1>
 
           <p className="text-gray-700 text-lg mb-6">
-            A Data Analyst and Software Developer pursuing an 
-            MS in Computer Science at Boston University.  
-            I build data-driven applications and scalable 
-            machine learning solutions.
+             Master’s graduate in Computer Science from Boston University with experience 
+  building scalable full-stack applications, AI-powered systems, cloud-native platforms, 
+  and interactive analytics dashboards. Passionate about transforming complex data into 
+  intelligent, user-focused solutions using modern software engineering and machine learning technologies.
           </p>
 
           {/* Buttons */}
@@ -55,6 +55,7 @@ export default function Home() {
         </div>
 
       </div>
+      
 {/* KEY HIGHLIGHTS */}
 
 <section className="max-w-6xl mx-auto mt-24 text-white">
@@ -110,30 +111,43 @@ ABOUT <span className="text-gray-400">ME</span>
 
 <div className="space-y-4 text-gray-700">
 
-<p>
-📊 I’m an AI/ML Engineer and Full-Stack Software Developer with 5+ years of industry experience, 
-currently pursuing a Master’s in Computer Science at Boston University (Expected May 2026). 
-My work focuses on building intelligent systems, scalable software, and data-driven applications 
-that transform complex data into practical insights.
-</p>
+<div className="space-y-4 text-[16px] leading-6 text-gray-700">
 
-<p>
-🤖 I specialize in machine learning, data analytics, and cloud-native application development. 
-My experience includes developing production-grade APIs, building ML pipelines, designing interactive 
-dashboards, and deploying scalable systems using technologies such as Python, React, Node.js, SQL, and AWS.
-</p>
+  <p>
+    💻 Full-Stack Software Engineer & Data Analytics Enthusiast with a Master’s in Computer Science from Boston University. I enjoy building scalable web applications, analytics platforms, and intelligent systems that combine modern software engineering with data-driven insights.
+  </p>
 
-<p>
-🚀 Recently, I worked as a Software Developer Intern at ASVI Systems, where I built cloud-native applications 
-on AWS and implemented CI/CD pipelines that improved deployment efficiency by 50%. I enjoy writing clean, maintainable 
-code and designing systems that perform reliably at scale.
-</p>
+  <p>
+    🚀 My experience includes developing full-stack applications, REST APIs, cloud-native systems, interactive dashboards, and machine learning solutions using technologies such as React, Next.js, Node.js, Python, TypeScript, SQL, MongoDB, PostgreSQL, and AWS.
+  </p>
 
-<p>
-💡 I’m passionate about solving real-world problems using AI, data, and modern software engineering practices. 
-I'm currently seeking AI/ML, software engineering, or data-focused roles where I can contribute to impactful 
-products and continue growing as an engineer.
-</p>
+  <p>
+    📊 I have worked on projects involving financial analytics dashboards, healthcare predictive modeling, AI-powered applications, NLP chatbots, business intelligence systems, and interactive data visualization platforms.
+  </p>
+
+  <p>
+    ⚡ Previously, I worked as a Software Developer Intern at ASVI Systems, where I developed AWS-based applications and implemented CI/CD pipelines that improved deployment efficiency and system reliability.
+  </p>
+
+  <div>
+    <p className="mb-3">
+      🧠 My interests include:
+    </p>
+
+    <ul className="list-disc pl-10 space-y-2">
+      <li>Full-Stack Software Engineering</li>
+      <li>Data Analytics & Visualization</li>
+      <li>Machine Learning & AI Applications</li>
+      <li>Cloud Computing & Scalable Systems</li>
+      <li>Business Intelligence Dashboards</li>
+    </ul>
+  </div>
+
+  <p>
+    🌱 Currently seeking opportunities in Software Engineering, Data Analytics, and AI/ML roles where I can contribute to impactful products, solve challenging problems, and continue growing as an engineer.
+  </p>
+
+</div>
 
 </div>
 
@@ -488,7 +502,7 @@ TECHNICAL <span className="text-black">SKILLS</span>
 FEATURED <span className="text-black">PROJECTS</span>
 </h2>
 
-<div className="grid md:grid-cols-3 gap-10">
+<div className="grid md:grid-cols-2 gap-10">
 
 {/* Project 1 */}
 <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-xl hover:scale-105 transition">
@@ -498,24 +512,25 @@ CareVault
 </h3>
 
 <p className="text-gray-300 mb-4">
-Secure caregiving management platform built with
-React, Next.js, Supabase, and PostgreSQL.
+Secure full-stack healthcare management platform with 
+authentication, patient tracking, appointment scheduling, and
+role-based access control using Next.js, React, Supabase, and PostgreSQL.
 </p>
 
 <p className="text-sm text-gray-400 mb-4">
-React • Supabase • PostgreSQL
+Next.js • React • Supabase • PostgreSQL
 </p>
 
 <div className="flex gap-4">
 <a
-href="YOUR_GITHUB_LINK"
+href="https://github.com/poojasukhdeve-project/carevault"
 className="px-4 py-2 bg-white text-black rounded"
 >
 GitHub
 </a>
 
 <a
-href="YOUR_LIVE_LINK"
+href="https://caregiver-app-project.vercel.app/login"
 className="px-4 py-2 border border-white rounded"
 >
 Live Demo
@@ -529,25 +544,34 @@ Live Demo
 <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-xl hover:scale-105 transition">
 
 <h3 className="text-2xl font-bold mb-2">
-Stock Momentum Analyzer
+AI-Powered Restaurant Analytics Dashboard
 </h3>
 
 <p className="text-gray-300 mb-4">
-AI-powered stock analytics system generating
-buy/sell signals using financial indicators.
+AI-powered analytics dashboard for restaurant trend analysis, 
+customer insights, and intelligent recommendations using Flask, 
+Hugging Face LLM API, Chart.js, and interactive data visualization.
 </p>
 
 <p className="text-sm text-gray-400 mb-4">
-Node.js • MongoDB • React
+Python • Flask • NLP • Chart.js
 </p>
 
+<div className="flex gap-4">
 <a
-href="YOUR_GITHUB_LINK"
+href="https://github.com/poojasukhdeve-project/ai-restaurant-analytics-dashboard"
 className="px-4 py-2 bg-white text-black rounded"
 >
 GitHub
 </a>
 
+<a
+href="https://ai-restaurant-analytics-dashboard.onrender.com/"
+className="px-4 py-2 border border-white rounded"
+>
+Live Demo
+</a>
+</div>
 </div>
 
 
@@ -555,26 +579,71 @@ GitHub
 <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-xl hover:scale-105 transition">
 
 <h3 className="text-2xl font-bold mb-2">
-Chatalogue Chatbot
+TextNova AI Generator
 </h3>
 
 <p className="text-gray-300 mb-4">
-NLP-powered university assistant chatbot built
-using Python and SQLite.
+GPT-style AI text generation platform using nanoGPT and 
+Transformer-based NLP architecture with temperature-controlled 
+text generation and prompt-based prediction.
 </p>
 
 <p className="text-sm text-gray-400 mb-4">
-Python • NLP • SQLite
+Python • PyTorch • nanoGPT • NLP
 </p>
 
+<div className="flex gap-4">
 <a
-href="YOUR_GITHUB_LINK"
+href="https://github.com/poojasukhdeve-project/TextNova-AI-Generator"
 className="px-4 py-2 bg-white text-black rounded"
 >
 GitHub
 </a>
 
+<a
+href="https://youtu.be/sKb2l6baH-8"
+className="px-4 py-2 border border-white rounded"
+>
+Live Demo
+</a>
 </div>
+
+</div>
+{/* Project 4 */}
+<div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-xl hover:scale-105 transition">
+
+<h3 className="text-2xl font-bold mb-2">
+Wallet Wizard
+</h3>
+
+<p className="text-gray-300 mb-4">
+Full-stack expense tracking and analytics system with secure 
+authentication, real-time transaction management, and PostgreSQL-backed
+financial dashboards.
+</p>
+
+<p className="text-sm text-gray-400 mb-4">
+Next.js • TypeScript • Supabase • PostgreSQL
+</p>
+
+<div className="flex gap-4">
+<a
+href="https://github.com/poojasukhdeve-project/Wallet-Wizard"
+className="px-4 py-2 bg-white text-black rounded"
+>
+GitHub
+</a>
+
+<a
+href="https://wallet-wizard-ten.vercel.app/login"
+className="px-4 py-2 border border-white rounded"
+>
+Live Demo
+</a>
+</div>
+
+</div>
+
  <div className="mt-12">
     <a
     href="/pooja-portfolio/YOUR_GITHUB_LINK#/projects"
@@ -604,7 +673,7 @@ WORK <span className="text-black">EXPERIENCE</span>
 <div className="absolute -left-3 w-6 h-6 bg-white rounded-full"></div>
 
 <h3 className="text-xl font-semibold">
-2024 — Present Research Assistant
+2024 — Data Research Analyst
 </h3>
 
 <p className="text-gray-300">
@@ -670,75 +739,132 @@ View Full Experience →
 
 {/* PUBLICATIONS & EDUCATION */}
 
-<section className="max-w-6xl mx-auto mt-28 text-white">
+<section className="max-w-6xl mx-auto mt-24 text-white">
 
-<h2 className="text-5xl font-bold mb-16">
-ACHIEVEMENTS <span className="text-black">& EDUCATION</span>
-</h2>
+  {/* SECTION TITLE */}
+  <h2 className="text-5xl font-extrabold mb-14 tracking-tight">
+    ACHIEVEMENTS <span className="text-black">& EDUCATION</span>
+  </h2>
+
+  <div className="grid md:grid-cols-2 gap-10">
+
+    {/* PUBLICATIONS CARD */}
+    <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-7 rounded-3xl shadow-xl">
+
+      {/* TITLE */}
+      <h3 className="text-2xl font-bold mb-8 leading-snug">
+        🏆 Publications & Achievements
+      </h3>
+
+      {/* TIMELINE */}
+      <div className="relative border-l-2 border-pink-300/40 pl-6 ml-3 space-y-7">
+
+        {/* ITEM 1 */}
+        <div className="relative">
+
+          <div className="absolute -left-[34px] top-2 w-5 h-5 bg-pink-400 rounded-full border-4 border-purple-700"></div>
+
+          <h4 className="text-lg font-bold leading-snug mb-2">
+            Boston University Hackathon Winner (2024)
+          </h4>
+
+          <p className="text-gray-300 text-sm leading-7">
+            Led development of a data science model delivering measurable business insights.
+          </p>
+
+        </div>
+
+        {/* ITEM 2 */}
+        <div className="relative">
+
+          <div className="absolute -left-[34px] top-2 w-5 h-5 bg-pink-400 rounded-full border-4 border-purple-700"></div>
+
+          <h4 className="text-lg font-bold leading-snug mb-2">
+            IGI Global Publication – Chapter 6
+          </h4>
+
+          <p className="text-gray-300 text-sm leading-7">
+            Implementing Augmented Reality in Immersive Virtual Learning Environments.
+          </p>
+
+        </div>
+
+        {/* ITEM 3 */}
+        <div className="relative">
+
+          <div className="absolute -left-[34px] top-2 w-5 h-5 bg-pink-400 rounded-full border-4 border-purple-700"></div>
+
+          <h4 className="text-lg font-bold leading-snug mb-2">
+            IGI Global Publication – Chapter 11
+          </h4>
+
+          <p className="text-gray-300 text-sm leading-7">
+            Research on transformational change in digital built environments.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
 
 
-<div className="grid md:grid-cols-2 gap-12">
+    {/* EDUCATION CARD */}
+    <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-7 rounded-3xl shadow-xl">
 
+      {/* TITLE */}
+      <h3 className="text-2xl font-bold mb-8 leading-snug">
+        🎓 Education
+      </h3>
 
-{/* Publications & Achievements */}
-<div className="bg-white/10 backdrop-blur-lg border border-white/20 p-8 rounded-xl">
+      {/* TIMELINE */}
+      <div className="relative border-l-2 border-pink-300/40 pl-6 ml-3 space-y-8">
 
-<h3 className="text-2xl font-bold mb-6">
-Publications & Achievements
-</h3>
+        {/* BOSTON UNIVERSITY */}
+        <div className="relative">
 
-<ul className="space-y-4 text-gray-300">
+          <div className="absolute -left-[34px] top-2 w-5 h-5 bg-pink-400 rounded-full border-4 border-purple-700"></div>
 
-<li>
-🏆 <b>Boston University Hackathon Winner (2024)</b><br/>
-Led development of a data science model delivering measurable business insights.
-</li>
+          <h4 className="text-lg font-bold leading-snug mb-2">
+            Boston University
+          </h4>
 
-<li>
-📚 <b>IGI Global Publication – Chapter 6</b><br/>
-Implementing Augmented Reality in Immersive Virtual Learning Environments.
-</li>
+          <p className="text-gray-200 text-base mb-3">
+            M.S. Computer Science
+          </p>
 
-<li>
-📚 <b>IGI Global Publication – Chapter 11</b><br/>
-Research on transformational change in digital built environments.
-</li>
+          <div className="flex flex-wrap gap-4 text-sm text-gray-300 mb-4">
+            <span>📅 May 2026</span>
+            <span>⭐ GPA: 3.59 / 4.00</span>
+          </div>
 
-</ul>
+        </div>
 
-</div>
+        {/* BACHELOR */}
+        <div className="relative">
 
+          <div className="absolute -left-[34px] top-2 w-5 h-5 bg-pink-400 rounded-full border-4 border-purple-700"></div>
 
-{/* Education */}
-<div className="bg-white/10 backdrop-blur-lg border border-white/20 p-8 rounded-xl">
+          <h4 className="text-lg font-bold leading-snug mb-2">
+            Swami Ramanand Teerth Marathwada University
+          </h4>
 
-<h3 className="text-2xl font-bold mb-6">
-Education
-</h3>
+          <p className="text-gray-200 text-base mb-3">
+            Bachelor of Computer Science Engineering
+          </p>
 
-<ul className="space-y-6 text-gray-300">
+          <div className="flex flex-wrap gap-4 text-sm text-gray-300 mb-4">
+            <span>📅 Graduated: June 2016</span>
+          </div>
 
-<li>
-🎓 <b>Boston University</b><br/>
-M.S. Computer Science<br/>
-GPA: 3.59 / 4.00<br/>
-May 2026
-</li>
+        </div>
 
-<li>
-🎓 <b>Swami Ramanand Teerth Marathwada University</b><br/>
-Bachelor of Computer Science Engineering<br/>
-Graduated: June 2016
-</li>
+      </div>
+    </div>
 
-</ul>
-
-</div>
-
-
-</div>
+  </div>
 
 </section>
+
 
 {/* CONNECT SECTION */}
 

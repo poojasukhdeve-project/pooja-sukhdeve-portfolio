@@ -28,24 +28,26 @@ export default function Projects() {
               >
 
                 {/* CONTENT */}
-                <div className="p-6">
+                <div className="p-6 flex flex-col h-full">
 
-                  <h3 className="text-xl font-semibold mb-2">
+                  <h3 className="text-xl font-semibold mb-4">
                     {project.title}
                   </h3>
 
-                   {/* IMAGE */}
-                <img
-                  src={project.image}
-                  className="rounded-t-2xl h-40 w-full object-cover mb-4"
-                />
+                  {/* IMAGE */}
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="rounded-2xl h-48 w-full object-cover mb-5"
+                  />
 
-                  <p className="text-gray-600 text-sm mb-4">
+                  {/* DESCRIPTION */}
+                  <p className="text-gray-600 text-sm leading-7 mb-5">
                     {project.description}
                   </p>
 
                   {/* TECH TAGS */}
-                  <div className="flex flex-wrap gap-2 mb-4">
+                  <div className="flex flex-wrap gap-2 mb-6">
                     {project.tech.map((tech, i) => (
                       <span
                         key={i}
@@ -57,30 +59,43 @@ export default function Projects() {
                   </div>
 
                   {/* BUTTONS */}
-                  <div className="flex gap-3">
+                  <div className="flex gap-3 mt-auto flex-wrap">
 
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:opacity-90 transition"
-                    >
-                      Live Demo ↗
-                    </a>
+                    {/* LIVE DEMO */}
+                    {project.demo && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:opacity-90 transition"
+                      >
+                        Live Demo ↗
+                      </a>
+                    )}
 
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      className="border px-4 py-2 rounded-lg text-sm hover:bg-gray-100 transition"
-                    >
-                      GitHub
-                    </a>
-                     <a
-                      href={project.slides}
-                      target="_blank"
-                      className="border px-4 py-2 rounded-lg text-sm hover:bg-gray-100 transition"
-                    >
-                      Slides
-                    </a>
+                    {/* GITHUB */}
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                       className="bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-black hover:scale-105 transition duration-300 shadow-md"
+                      >
+                        GitHub
+                      </a>
+                    )}
+
+                    {/* SLIDES */}
+                    {project.slides && (
+                      <a
+                        href={project.slides}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="border px-4 py-2 rounded-lg text-sm hover:bg-gray-100 transition"
+                      >
+                        Slides
+                      </a>
+                    )}
 
                   </div>
 

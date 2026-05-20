@@ -8,6 +8,7 @@ import stockmomentum from "../assets/stockmomentum.png"
 import exoplanet from "../assets/exoplanet.png"
 import netflix from "../assets/netflix.png"
 import adidas from "../assets/adidas.png"
+import brfss from "../assets/brfss.png"
 const projects = [
   {
     title: "CareVault – Full-Stack Healthcare Management Platform",
@@ -80,7 +81,6 @@ const projects = [
       "Engineered a local-first AI-powered university course assistant chatbot integrating custom NLP pipelines, spaCy NER, Sentence Transformers, SQLite, deterministic SQL generation, and GPT-4.1-mini to deliver context-aware conversational responses for course schedules, instructor lookup, classroom locations, and multi-query academic assistance.",
     image: chatalogue,
     tech: ["Python", "NLP", "spaCy", "SentenceTransformers", "SQLite", "GPT-4.1-mini", "OpenAI API", "Machine Learning", "Logistic Regression", "RAG", "Tkinter", "SQL", "Semantic Parsing", "Named Entity Recognition (NER)", "Conversational AI"],
-    demo: "#",
     github: "https://github.com/poojasukhdeve-project/CHATALOGUE-main",
   },
 
@@ -91,7 +91,6 @@ const projects = [
       "Developed a machine learning and explainable AI analytics project for exoplanet detection using statistical analysis, Random Forest, Decision Trees, Gradient Boosting, and SHAP interpretability techniques to identify significant planetary features, visualize model behavior, and improve prediction transparency through advanced data analysis and visualization.",
     image: exoplanet,
     tech: ["Python", "Scikit-learn", "SHAP", "Machine Learning", "Random Forest", "Explainable AI (XAI)", "Pandas", "Data Visualization"],
-    demo: "#",
     github: "https://github.com/poojasukhdeve-project/Exoplanet-Data-Visualization-and-Analysis-with-SHAP",
   },
 
@@ -100,9 +99,8 @@ const projects = [
     title: "BRFSS Healthcare Predictive Analytics & Disease Risk Modeling",
     description:
       "Developed a healthcare predictive analytics system using statistical modeling, machine learning, and explainable AI techniques to analyze BRFSS health data, identify disease risk factors, and improve prediction accuracy through feature engineering, hyperparameter tuning, cross-validation, and evaluation of 36 classification models including Random Forest, KNN, XGBoost, and Logistic Regression.",
-    image: "/images/realestate.jpg",
+    image: brfss,
     tech: ["R", "Machine Learning", "Random Forest", "XGBoost", "SHAP", "Predictive Analytics", "Statistical Analysis", "ggplot2", "caret", "Feature Engineering"],
-    demo: "#",
     github: "https://github.com/poojasukhdeve-project/BRFSS-Data-Analytics-Exploring-Health-Patterns-and-Risk-Factors-with-R",
   },
 
@@ -112,7 +110,6 @@ const projects = [
       "Developed an interactive Tableau-based business intelligence dashboard to analyze Netflix’s global content library, visualizing trends across genres, ratings, countries, content types, and release timelines through choropleth maps, bar charts, bubble charts, and area visualizations for data-driven entertainment analytics and content insights.",
     image: netflix,
     tech: ["Tableau", "Data Visualization", "Business Intelligence (BI)", "Dashboard Development", "Data Analytics", "Interactive Charts", "Data Storytelling"],
-    demo: "#",
     github: "https://github.com/poojasukhdeve-project/Netflix-Data-Visualization-Dashboard-using-Tableau",
   },
 
@@ -122,7 +119,6 @@ const projects = [
       "Developed an interactive Excel-based sales analytics dashboard for Adidas to analyze regional sales performance, retailer contributions, sales methods, and time-series trends using pivot tables, dynamic filtering, VBA automation, KPI tracking, and advanced data visualization techniques for business intelligence and data-driven decision-making.",
     image: adidas,
     tech: ["Microsoft Excel", "VBA", "Pivot Tables", "Data Visualization", "Business Intelligence (BI)", "KPI Analytics", "Dashboard Development", "Data Analysis"],
-    demo: "#",
     github: "https://github.com/poojasukhdeve-project/Advance-Excel-Adidas-Sales-Dashboard",
   },
 ];
