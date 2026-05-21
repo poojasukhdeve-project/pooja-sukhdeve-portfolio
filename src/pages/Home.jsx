@@ -6,53 +6,78 @@ export default function Home() {
     <div className="bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 min-h-screen py-20">
 
       {/* HERO SECTION */}
-      <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-xl p-10 grid md:grid-cols-2 gap-10 items-center">
-
+      <div className="max-w-6xl mx-auto bg-white rounded-3xl shadow-2xl px-6 md:px-12 py-10 md:py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center overflow-hidden">
         {/* Profile Image */}
-        <div className="flex justify-center">
+        <div className="flex justify-center md:justify-start animate-fadeInLeft">
           <img
             src={profilePic}
             alt="Pooja Sukhdeve"
-            className="w-96 rounded-xl object-cover"
+            className="w-64 sm:w-80 md:w-[420px] object-cover hover:scale-105 transition duration-500"
           />
         </div>
 
         {/* Intro Section */}
-        <div>
+<div className="space-y-6 text-center md:text-left animate-fadeInRight">
 
-          <h1 className="text-4xl font-bold mb-4">
-            Pooja Sukhdeve
-          </h1>
+  {/* Small Intro */}
 
-          <p className="text-gray-700 text-lg mb-6">
-             Master’s graduate in Computer Science from Boston University with experience 
-  building scalable full-stack applications, AI-powered systems, cloud-native platforms, 
-  and interactive analytics dashboards. Passionate about transforming complex data into 
-  intelligent, user-focused solutions using modern software engineering and machine learning technologies.
-          </p>
+  {/* Name */}
+ <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight">
+    Pooja{" "}
+    <span className="bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">
+      Sukhdeve
+    </span>
+  </h1>
 
-          {/* Buttons */}
-          <div className="flex gap-4">
+  {/* Role Tags */}
+  <div className="flex flex-wrap gap-3">
 
-            <a
-              href="/Pooja_Sukhdeve_Resume.pdf"
-              target="_blank"
-              className="px-6 py-2 bg-black text-white rounded-lg hover:bg-gray-800"
-            >
-              Resume
-            </a>
+    <span className="px-4 py-2 rounded-full bg-purple-100 text-purple-700 text-sm font-medium hover:scale-105 transition-all duration-300">
+      💻 Software Engineer
+    </span>
 
-            <a
-              href="https://www.linkedin.com/in/pooja-sukhdeve-79b897194/"
-              target="_blank"
-              className="px-6 py-2 border border-gray-400 rounded-lg hover:bg-gray-100"
-            >
-              LinkedIn
-            </a>
+    <span className="px-4 py-2 rounded-full bg-pink-100 text-pink-700 text-sm font-medium hover:scale-105 transition-all duration-300">
+      📊 Data Analyst
+    </span>
 
-          </div>
+    <span className="px-4 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-medium hover:scale-105 transition-all duration-300">
+      🤖 AI/ML Enthusiast
+    </span>
 
-        </div>
+  </div>
+
+  {/* Description */}
+ <p className="text-gray-700 text-base sm:text-lg leading-7 sm:leading-8 max-w-xl mx-auto md:mx-0">
+    Master’s graduate in Computer Science from Boston University with experience
+    building scalable full-stack applications, AI-powered systems, cloud-native
+    platforms, and interactive analytics dashboards. Passionate about transforming
+    complex data into intelligent, user-focused solutions using modern software
+    engineering and machine learning technologies.
+  </p>
+
+
+  {/* Buttons */}
+  <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
+
+    <a
+      href="/Pooja_Sukhdeve_Resume.pdf"
+      target="_blank"
+      className="px-7 py-3 bg-black text-white rounded-xl hover:bg-gray-800 transition-all duration-300 hover:scale-105 shadow-md"
+    >
+      📄 Resume
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/pooja-sukhdeve-79b897194/"
+      target="_blank"
+      className="px-7 py-3 border border-gray-300 rounded-xl hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-sm"
+    >
+      💼 LinkedIn
+    </a>
+
+  </div>
+
+</div>
 
       </div>
       
@@ -68,31 +93,31 @@ KEY <span className="text-black">HIGHLIGHTS</span>
 
 </div>
 
-<div className="grid md:grid-cols-4 gap-12 text-center">
+<div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 text-center">
 
 <div>
-<h3 className="text-5xl font-bold">6+</h3>
+<h3 className="text-3xl md:text-5xl font-bold">6+</h3>
 <p className="text-gray-300 mt-2 text-sm">
 Years Industry Experience
 </p>
 </div>
 
 <div>
-<h3 className="text-5xl font-bold">12+</h3>
+<h3 className="text-3xl md:text-5xl font-bold">12+</h3>
 <p className="text-gray-300 mt-2 text-sm">
 AI & Software Projects
 </p>
 </div>
 
 <div>
-<h3 className="text-5xl font-bold">5+</h3>
+<h3 className="text-3xl md:text-5xl font-bold">5+</h3>
 <p className="text-gray-300 mt-2 text-sm">
 Data Dashboards Built
 </p>
 </div>
 
 <div>
-<h3 className="text-5xl font-bold">3+</h3>
+<h3 className="text-3xl md:text-5xl font-bold">3+</h3>
 <p className="text-gray-300 mt-2 text-sm">
 Publications & Awards
 </p>

@@ -6,8 +6,8 @@ export default function Projects() {
 
       {/* HEADER */}
       <div className="bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 py-14 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-white">
-          Projects
+        <h1 className="text-4xl sm:text-5xl md:text-5xl font-bold text-white leading-tight">
+          PROJECTS
         </h1>
 
         <p className="text-gray-300 mt-2">

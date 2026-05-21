@@ -5,11 +5,11 @@ export default function Publications() {
     <div>
 
       {/* HEADER */}
-      <div className="bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 py-24 text-center">
-        <h1 className="text-5xl font-bold text-white">
+      <div className="bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 py-14 text-center">
+        <h1 className="text-4xl sm:text-5xl md:text-5xl font-bold text-white leading-tight">
         PUBLICATIONS
         </h1>
-        <p className="text-gray-200 mt-3">
+        <p className="text-gray-300 mt-2">
           Research work and academic contributions
         </p>
       </div>

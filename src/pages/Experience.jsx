@@ -11,13 +11,13 @@ export default function Experience() {
     <div className="bg-gradient-to-b from-gray-100 to-slate-200 min-h-screen">
 
       {/* HERO SECTION */}
-      <div className="bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 py-16 text-center">
+      <div className="bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 py-14 text-center">
 
-        <h1 className="text-5xl font-bold text-white">
-          Work Experience
+        <h1 className="text-4xl sm:text-5xl md:text-5xl font-bold text-white leading-tight">
+          WORK EXPERIENCE
         </h1>
 
-        <p className="text-gray-200 mt-3 text-lg">
+        <p className="text-gray-300 mt-2">
           Professional experience and industry contributions
         </p>
 
