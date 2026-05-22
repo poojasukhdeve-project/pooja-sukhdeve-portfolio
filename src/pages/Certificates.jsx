@@ -21,6 +21,24 @@ image: "/pooja-portfolio/certificates/hackathon.png",
 },
 
 {
+  title: "AI-Powered Text Generation Portal (TextNova)",
+  tag: "Open Avenues Foundation - May 2026 · 8 weeks",
+  tagColor: "bg-blue-200",
+  description:
+  "Developed TextNova a GPT-style AI text generation platform using nanoGPT, Flask, and Transformer-based NLP architecture with temperature-controlled generation, Top-k/Top-p sampling, and interactive full-stack web integration, as part of a structured build project led by industry mentor Uttara Ravi",
+  image: "/pooja-portfolio/certificates/AItext.png"
+},
+
+{
+  title: "Personal Finance Tracker (Wallet Wizard)",
+  tag: "Open Avenues Foundation - April 2026 · 8 weeks",
+  tagColor: "bg-blue-200",
+  description:
+  "Developed Wallet Wizard a personal finance tracking application as part of a structured build project led by industry mentor Parug Demircioglu",
+  image: "/pooja-portfolio/certificates/wallet.png"
+},
+
+{
   title: "Data Visualization Virtual Internship",
   tag: "Illinois Tech | GlobalShala",
   tagColor: "bg-red-200",
@@ -45,16 +63,9 @@ image: "/pooja-portfolio/certificates/hackathon.png",
   description:
   "Completed a 4-week Cybersecurity: Defensive Hacking Virtual Internship powered by GlobalShala in collaboration with Illinois Tech, gaining hands-on experience in vulnerability analysis and defensive security techniques.",
   image: "/pooja-portfolio/certificates/cybersecurity.png"
-},
-
-{
-  title: "Digital Marketing Virtual Internship",
-  tag: "Illinois Tech | GlobalShala",
-  tagColor: "bg-red-200",
-  description:
-  "Completed a 4-week Digital Marketing Virtual Internship powered by GlobalShala in collaboration with Illinois Tech, gaining hands-on experience in SEO, social media marketing, and campaign analytics.",
-  image: "/pooja-portfolio/certificates/digital_marketing.png"
 }
+
+
 
 ];
 

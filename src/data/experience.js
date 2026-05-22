@@ -1,31 +1,36 @@
 export const experiences = [
 
 {
-  role: "Research Assistant",
+  role: "Data Research Analyst",
   company: "Boston University",
   duration: "Sept 2024 – Ongoing",
 
   points: [
-    "Collaborating with Professor Eugene Pinsky to develop a Python-based data visualization module for visually impaired users.",
-    "Designing interactive shapes and pattern-based representations to improve accessibility and understanding."
+    "Develop and structure Python programming exercises and coding activities involving 1,000+ lines of code, applying data-driven learning approaches to improve conceptual understanding for visually impaired and non-traditional learners.",
+    "Translate complex Python and programming concepts into accessible visual and tactile learning representations, including structured diagrams, flowcharts, and screen-reader-friendly educational content.",
+    "Conduct research and iterative analysis on inclusive educational materials using Overleaf (LaTeX), ensuring accessibility compliance, clarity, and well-structured technical documentation.",
+    "Collaborate with faculty members and researchers to design, test, and refine accessible learning tools, effectively communicating technical Python concepts through evidence-based instructional design."
   ],
+
 
   skills: [
     "Python",
     "Data Visualization",
-    "Accessibility",
-    "UI/UX"
+    "Accessibility Research",
+    "Technical Documentation",
+    "Curriculum Data Analysis",
+    "LaTeX / Overleaf"
   ]
 },
 
 {
-  role: "Student Assistant",
+  role: "Student Operations Assistant",
   company: "Boston University IS&T",
-  duration: "Sept 2024 – Oct 2025",
+  duration: "May 2024 – Oct 2025",
 
   points: [
-    "Supported the IS&T department with office operations and inventory management using Excel.",
-    "Automated Outlook workflows and provided frontline technical support during university events."
+    "Managed 50+ daily emails and multi-calendar scheduling for 3–5 team members while executing advanced Excel functions (VLOOKUP, pivot tables, macros) on 1,000+ entry datasets - reducing monthly reporting time by 40% and data errors by 30%.",
+    "Coordinated 350+ shipments via FedEx with full tracking, oversaw AV setup for conferences, and optimized inventory tracking systems - cutting supply costs by 20% while maintaining zero stockouts."
   ],
 
   skills: [
@@ -42,17 +47,31 @@ export const experiences = [
   duration: "May 2025 – Aug 2025",
 
   points: [
-    "Designed scalable software solutions using AWS services and built CI/CD pipelines for automated deployments.",
-    "Collaborated with cross-functional teams to gather requirements and enhance system performance.",
-    "Contributed to code reviews, system integrations, and technical documentation."
+    "Developed 3 full-stack web applications using React.js, Next.js, and Node.js with JWT authentication, serving 500+ daily users and preventing unauthorized access through role-based permissions",
+    "Built 8+ RESTful APIs with Express.js and Flask that processed 10,000+ requests daily, integrating MongoDB and PostgreSQL for efficient data retrieval and storage",
+    "Reduced page load times by 35% by debugging performance bottlenecks, implementing code optimization techniques, and refactoring inefficient database queries",
+    "Designed mobile-responsive UI components for 5 client projects, achieving 95%+ cross-browser compatibility and improving mobile user engagement",
+    "Automated deployment pipeline using Docker and GitHub Actions, cutting deployment time from 2 hours to 15 minutes and reducing production bugs by 60%",
+    "Collaborated with 4-person development team on code reviews and architecture decisions, contributing to 20+ pull requests with clean, maintainable code"
   ],
 
   skills: [
-    "AWS",
-    "CI/CD",
-    "Node.js",
     "JavaScript",
-    "Git"
+    "Python",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "Flask",
+    "MongoDB",
+    "PostgreSQL",
+    "Docker",
+    "Git",
+    "GitHub Actions",
+    "REST APIs",
+    "JWT",
+    "Responsive Design",
+    "CI/CD"
   ]
 },
 
@@ -62,9 +81,10 @@ export const experiences = [
   duration: "Oct 2022 – Dec 2023",
 
   points: [
-    "Managed the end-to-end data analytics pipeline including data wrangling and feature engineering.",
-    "Automated Python and SQL reporting workflows.",
-    "Developed Power BI and Excel dashboards to support business insights and decision making."
+    "Engineered scalable ETL pipeline using Python (Pandas, NumPy) and SQL, transforming raw data from 5+ sources into clean, analysis-ready datasets supporting 50+ business users and reducing data processing time by 50%",
+"Created automated reporting system with Python scheduled tasks and SQL views, reducing report generation time from 4 hours to 15 minutes and ensuring 99% data accuracy",
+"Built 8+ interactive Power BI dashboards with drill-down capabilities, DAX calculations, and real-time data refresh, visualizing metrics for sales, marketing, and operations teams",
+"Delivered advanced Excel solutions including dynamic dashboards, VBA automation, and what-if analysis tools that streamlined financial forecasting and budget planning processes"
   ],
 
   skills: [
@@ -72,7 +92,9 @@ export const experiences = [
     "SQL",
     "Power BI",
     "Excel",
-    "Data Analysis"
+    "Data Analysis",
+    "Statistical Analysis",
+    "Data Cleaning"
   ]
 },
 
@@ -82,17 +104,24 @@ export const experiences = [
   duration: "Apr 2020 – Jun 2022",
 
   points: [
-    "Designed and maintained scalable software systems using Python, Node.js, and JavaScript.",
-    "Worked with stakeholders to gather requirements and developed features in agile sprints.",
-    "Handled testing, deployment, and continuous improvements."
+    "Developed and maintained 5+ full-stack applications using Python (Django/Flask), Node.js (Express), and JavaScript, serving 10,000+ users and handling 50K+ monthly transactions with 99.9% uptime",
+    "Led feature development in Agile sprints, collaborating with product managers and designers to gather requirements, write user stories, and deliver 30+ features that improved user engagement by 40%",
+    "Built RESTful APIs and microservices with Node.js and Python, enabling seamless integration between frontend and backend systems while maintaining clean, well-documented code",
+    "Optimized application performance through code refactoring and database query optimization, reducing page load times by 45% and improving server response time",
+    "Participated in code reviews and pair programming, contributing to team knowledge sharing and maintaining high code quality standards across 100+ pull requests"
   ],
 
   skills: [
-    "Python",
-    "Node.js",
-    "JavaScript",
-    "Agile",
-    "Git"
+     "Python",
+  "JavaScript",
+  "React.js",
+  "Node.js",
+  "SQL",
+  "MongoDB",
+  "Git",
+  "RESTful APIs",
+  "Data Analysis",
+  "Agile"
   ]
 },
 
@@ -102,19 +131,23 @@ export const experiences = [
   duration: "Apr 2018 – Mar 2020",
 
   points: [
-    "Developed 8+ full-stack applications across e-commerce, healthcare, and banking industries.",
-    "Engineered RESTful APIs handling 10K+ daily requests with 99.5% uptime.",
-    "Optimized MySQL and MongoDB queries reducing load times by 40%.",
-    "Built responsive cross-browser user interfaces improving engagement by 30%."
+   "Created user interfaces for 8+ banking web applications using HTML5, CSS3, and JavaScript, designing customer-facing pages for account viewing, loan applications, and transaction displays",
+   "Developed responsive layouts that worked seamlessly across desktop, tablet, and mobile devices using CSS media queries, improving mobile user experience by 30%",
+   "Built reusable HTML/CSS components for forms, tables, buttons, and navigation elements, ensuring consistent branding and faster development across multiple banking projects",
+   "Worked with backend developers to connect frontend forms to databases, validate user inputs using JavaScript, and ensure proper display of banking data from MySQL and MongoDB"
   ],
 
   skills: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "PHP",
-    "MySQL",
-    "MongoDB"
+    "HTML5",
+  "CSS3",
+  "JavaScript",
+  "Responsive Design",
+  "Cross-browser Compatibility",
+  "jQuery",
+  "MySQL",
+  "MongoDB",
+  "PHP",
+  "Git"
   ]
 },
 
