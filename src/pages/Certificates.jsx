@@ -8,7 +8,7 @@ tag: "🏆 Winner",
 tagColor: "bg-yellow-300 text-black",
 description:
 "Secured 1st place in the Boston University Hackathon by developing a data-driven solution for business case analysis using advanced analytics techniques.",
-image: "/pooja-portfolio/certificates/hackathon.png",
+image: "/certificates/hackathon.png",
 },
 
 {
