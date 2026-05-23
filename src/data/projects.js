@@ -50,7 +50,7 @@ const projects = [
       "Developed a scalable financial analytics dashboard enabling stock momentum tracking, comparative market analysis, RSI/SMA/EMA computation, and dynamic visualization of historical trading data through modern full-stack technologies.",
     image: stockmomentum,
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Mongoose", "Recharts", "Axios", "CSS"],
-    demo: "#",
+    demo: "https://youtu.be/hE3j8tyRmgg",
     github: "https://github.com/poojasukhdeve-project/stock_momentum_analyzer",
   },
 
