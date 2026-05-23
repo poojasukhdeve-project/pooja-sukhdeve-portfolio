@@ -189,11 +189,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 <div className="grid md:grid-cols-4 gap-12">
 
 {/* Python */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-python-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -205,11 +205,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* Power BI */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-power-bi-2021-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -221,11 +221,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* SQL */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-sql-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -237,11 +237,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* Tableau */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-tableau-software-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -253,11 +253,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* R */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-r-project-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -269,11 +269,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* AWS */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-aws-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -284,11 +284,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 </div>
 
 {/* React */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-react-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -300,11 +300,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* Node.js */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-node-js-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -316,11 +316,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* PostgreSQL */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-postgresql-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -332,11 +332,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* MongoDB */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-mongodb-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -348,11 +348,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* Supabase */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-supabase-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -364,11 +364,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* Netlify */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-netlify-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -380,11 +380,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* Vercel */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-vercel-100.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -396,11 +396,11 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* Figma */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-figma-100.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
     />
   </div>
 
@@ -412,11 +412,26 @@ TOOLS & <span className="text-black">SOFTWARE</span>
 
 
 {/* Trello */}
-<div className="flex items-center gap-6">
-  <div className="bg-white p-4 rounded-xl shadow">
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
     <img
       src={`${import.meta.env.BASE_URL}icons/icons8-trello-96.png`}
-      className="w-10 h-10"
+      className="w-9 h-9"
+    />
+  </div>
+
+  <div>
+    <h3 className="text-2xl font-semibold">Trello</h3>
+    <p className="text-gray-300 text-sm">Project Management</p>
+  </div>
+</div>
+
+{/* Trello */}
+<div className="flex items-center gap-4">
+  <div className="bg-white p-2 rounded-lg shadow">
+    <img
+      src={`${import.meta.env.BASE_URL}icons/icons8-trello-96.png`}
+      className="w-9 h-9"
     />
   </div>
 
