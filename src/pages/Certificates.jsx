@@ -17,7 +17,7 @@ image: "/certificates/hackathon.png",
   tagColor: "bg-green-200",
   description:
   "Completed AWS Academy Cloud Foundations certification, gaining a strong understanding of cloud computing fundamentals including EC2, S3, IAM, and scalable cloud architecture principles.",
-  image: "/pooja-portfolio/certificates/aws.png"
+  image: "/certificates/aws.png"
 },
 
 {
@@ -26,7 +26,7 @@ image: "/certificates/hackathon.png",
   tagColor: "bg-blue-200",
   description:
   "Developed TextNova a GPT-style AI text generation platform using nanoGPT, Flask, and Transformer-based NLP architecture with temperature-controlled generation, Top-k/Top-p sampling, and interactive full-stack web integration, as part of a structured build project led by industry mentor Uttara Ravi",
-  image: "/pooja-portfolio/certificates/AItext.png"
+  image: "/certificates/AItext.png"
 },
 
 {
@@ -35,7 +35,7 @@ image: "/certificates/hackathon.png",
   tagColor: "bg-blue-200",
   description:
   "Developed Wallet Wizard a personal finance tracking application as part of a structured build project led by industry mentor Parug Demircioglu",
-  image: "/pooja-portfolio/certificates/wallet.png"
+  image: "/certificates/wallet.png"
 },
 
 {
@@ -44,7 +44,7 @@ image: "/certificates/hackathon.png",
   tagColor: "bg-red-200",
   description:
   "Completed a 4-week Data Visualization Virtual Internship powered by GlobalShala in collaboration with Illinois Tech, gaining hands-on experience in data analysis, visualization, and data storytelling.",
-  image: "/pooja-portfolio/certificates/data_analyst.png"
+  image: "/certificates/data_analyst.png"
 },
 
 {
@@ -53,7 +53,7 @@ image: "/certificates/hackathon.png",
   tagColor: "bg-red-200",
   description:
   "Completed a 4-week Project Management Virtual Internship powered by GlobalShala in collaboration with Illinois Tech, gaining practical experience in project planning, execution, and team collaboration.",
-  image: "/pooja-portfolio/certificates/project_management.png"
+  image: "/certificates/project_management.png"
 },
 
 {
@@ -62,7 +62,7 @@ image: "/certificates/hackathon.png",
   tagColor: "bg-red-200",
   description:
   "Completed a 4-week Cybersecurity: Defensive Hacking Virtual Internship powered by GlobalShala in collaboration with Illinois Tech, gaining hands-on experience in vulnerability analysis and defensive security techniques.",
-  image: "/pooja-portfolio/certificates/cybersecurity.png"
+  image: "/certificates/cybersecurity.png"
 }
 
 
