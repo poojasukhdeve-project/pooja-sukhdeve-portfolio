@@ -20,7 +20,7 @@ export default function Resume() {
         <div className="flex gap-4 mb-12">
 
           <a
-            href="/Pooja_Sukhdeve_Resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800"
           >
