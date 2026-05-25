@@ -619,29 +619,29 @@ Live Demo
 <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-xl hover:scale-105 transition">
 
 <h3 className="text-2xl font-bold mb-2">
-TextNova AI Generator
+Stock Momentum Analyzer
 </h3>
 
 <p className="text-gray-300 mb-4">
-GPT-style AI text generation platform using nanoGPT and 
-Transformer-based NLP architecture with temperature-controlled 
-text generation and prompt-based prediction.
+Full-stack financial analytics platform for stock momentum tracking, 
+technical indicator analysis, and portfolio visualization using React, 
+Node.js, MongoDB, and interactive market intelligence dashboards.
 </p>
 
 <p className="text-sm text-gray-400 mb-4">
-Python • PyTorch • nanoGPT • NLP
+React • Node.js • Express.js • MongoDB
 </p>
 
 <div className="flex gap-4">
 <a
-href="https://github.com/poojasukhdeve-project/TextNova-AI-Generator"
+href="https://github.com/poojasukhdeve-project/stock_momentum_analyzer"
 className="px-4 py-2 bg-white text-black rounded"
 >
 GitHub
 </a>
 
 <a
-href="https://youtu.be/sKb2l6baH-8"
+href="https://www.youtube.com/watch?v=hE3j8tyRmgg"
 className="px-4 py-2 border border-white rounded"
 >
 Live Demo
@@ -653,33 +653,28 @@ Live Demo
 <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-xl hover:scale-105 transition">
 
 <h3 className="text-2xl font-bold mb-2">
-Wallet Wizard
+Chatalogue
 </h3>
 
 <p className="text-gray-300 mb-4">
-Full-stack expense tracking and analytics system with secure 
-authentication, real-time transaction management, and PostgreSQL-backed
-financial dashboards.
+Conversational AI-powered university assistant platform integrating 
+NLP pipelines, semantic search, SQL generation, and context-aware 
+academic query support using Python and OpenAI technologies.
 </p>
 
 <p className="text-sm text-gray-400 mb-4">
-Next.js • TypeScript • Supabase • PostgreSQL
+Python • NLP • OpenAI API • SQLite
 </p>
 
 <div className="flex gap-4">
 <a
-href="https://github.com/poojasukhdeve-project/Wallet-Wizard"
+href="https://github.com/poojasukhdeve-project/CHATALOGUE-main"
 className="px-4 py-2 bg-white text-black rounded"
 >
 GitHub
 </a>
 
-<a
-href="https://wallet-wizard-ten.vercel.app/login"
-className="px-4 py-2 border border-white rounded"
->
-Live Demo
-</a>
+
 </div>
 
 </div>
