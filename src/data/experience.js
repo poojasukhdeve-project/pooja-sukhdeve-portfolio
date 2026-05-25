@@ -24,7 +24,7 @@ export const experiences = [
 },
 
 {
-  role: "Student Operations Assistant",
+  role: "Operations Analyst",
   company: "Boston University IS&T",
   duration: "May 2024 – Oct 2025",
 
