@@ -619,33 +619,27 @@ Live Demo
 <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-xl hover:scale-105 transition">
 
 <h3 className="text-2xl font-bold mb-2">
-Stock Momentum Analyzer
+SPY ETF Machine Learning Trading Strategy
 </h3>
 
 <p className="text-gray-300 mb-4">
-Full-stack financial analytics platform for stock momentum tracking, 
-technical indicator analysis, and portfolio visualization using React, 
-Node.js, MongoDB, and interactive market intelligence dashboards.
+Can machine learning beat the market? This project explores that 
+question by building a quantitative trading system using SPY ETF data, 
+technical indicators, and predictive models, with strategy performance validated through backtesting.
 </p>
 
 <p className="text-sm text-gray-400 mb-4">
-React • Node.js • Express.js • MongoDB
+Python • Pandas • NumPy • Scikit-Learn • Random Forest • Linear Regression • Quantitative Finance • Algorithmic Trading • Backtesting
 </p>
 
 <div className="flex gap-4">
 <a
-href="https://github.com/poojasukhdeve-project/stock_momentum_analyzer"
+href="https://github.com/poojasukhdeve-project/SPY-ETF-Machine-Learning-Trading-Strategy"
 className="px-4 py-2 bg-white text-black rounded"
 >
 GitHub
 </a>
 
-<a
-href="https://www.youtube.com/watch?v=hE3j8tyRmgg"
-className="px-4 py-2 border border-white rounded"
->
-Live Demo
-</a>
 </div>
 
 </div>
