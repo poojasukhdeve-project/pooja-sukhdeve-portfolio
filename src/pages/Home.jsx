@@ -971,7 +971,7 @@ className="w-16 mb-4"
 />
 
 <a
-href="/pooja-portfolio/#/resume"
+href="#/resume"
 target="_blank"
 className="px-6 py-2 border border-gray-400 rounded-lg hover:bg-gray-100"
 >
