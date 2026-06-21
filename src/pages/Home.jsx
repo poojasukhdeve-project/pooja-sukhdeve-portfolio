@@ -60,7 +60,7 @@ export default function Home() {
   <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
 
     <a
-      href="/resume.pdf"
+      href="/pooja-portfolio/#/resume"
       target="_blank"
       className="px-7 py-3 bg-black text-white rounded-xl hover:bg-gray-800 transition-all duration-300 hover:scale-105 shadow-md"
     >
@@ -971,7 +971,7 @@ className="w-16 mb-4"
 />
 
 <a
-href="/resume.pdf"
+href="/pooja-portfolio/#/resume"
 target="_blank"
 className="px-6 py-2 border border-gray-400 rounded-lg hover:bg-gray-100"
 >
