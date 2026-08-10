@@ -14,15 +14,23 @@ export default function Projects() {
   return (
     <div>
       {/* HEADER */}
-      <div className="bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 py-14 text-center">
-        <h1 className="text-4xl sm:text-5xl md:text-5xl font-bold text-white leading-tight">
-          PROJECTS
-        </h1>
+      <section className="relative overflow-hidden bg-gradient-to-r from-blue-950 via-indigo-900 to-purple-900 py-10 md:py-12">
 
-        <p className="text-gray-300 mt-2">
-          Some of my recent work
-        </p>
-      </div>
+        <div className="relative text-center px-6">
+
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight">
+            PROJECTS
+          </h1>
+
+          <p className="text-indigo-200 mt-2 text-sm md:text-base">
+            Some of my recent work
+          </p>
+
+          <div className="mx-auto mt-4 w-12 h-1 bg-purple-400 rounded-full"></div>
+
+        </div>
+
+      </section>
 
       {/* PROJECT SECTION */}
       <div className="bg-gray-50 py-20">

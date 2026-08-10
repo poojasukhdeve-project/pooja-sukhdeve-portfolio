@@ -150,7 +150,7 @@ export const experiences = [
   ],
 
   skills: [
-     "Python",
+  "Python",
   "JavaScript",
   "React.js",
   "Node.js",
