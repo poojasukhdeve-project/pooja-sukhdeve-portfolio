@@ -164,19 +164,22 @@ export const experiences = [
 },
 
 {
-  role: "Web Developer",
+  role: "Software Developer & Data Analyst",
   company: "Oceans Software Technologies",
   duration: "Apr 2018 – Mar 2020",
 
   points: [
-   "Created user interfaces for 8+ banking web applications using HTML5, CSS3, and JavaScript, designing customer-facing pages for account viewing, loan applications, and transaction displays",
-   "Developed responsive layouts that worked seamlessly across desktop, tablet, and mobile devices using CSS media queries, improving mobile user experience by 30%",
-   "Built reusable HTML/CSS components for forms, tables, buttons, and navigation elements, ensuring consistent branding and faster development across multiple banking projects",
-   "Worked with backend developers to connect frontend forms to databases, validate user inputs using JavaScript, and ensure proper display of banking data from MySQL and MongoDB"
+  "Developed and maintained 8+ data-driven banking web applications using HTML5, CSS3, JavaScript, PHP, and MySQL, supporting account management, loan processing, and transaction workflows for over 15,000 active users.",
+   "Wrote and optimized complex SQL queries (joins, filters, aggregations) across customer, account, loan, and transaction data, reducing average report generation time by 30% and supporting daily operational reporting for 3 business units.",
+   "Identified and resolved data inconsistencies and missing records across application and transactional datasets, - improving data reliability and reducing manual reconciliation effort by roughly 20%.",
+   "Built 10+ dashboards, reports, and reusable UI components that transformed raw database records into actionable insights, used weekly by 25+ business stakeholders across operations and finance teams.",
+   "Conducted data validation and quality checks across frontend applications, REST APIs, and backend databases, ensuring consistent and accurate data processing across 5 integrated systems.",
+   "Partnered with development and business teams to translate requirements into database queries, application features, and reporting solutions, contributing to the on-time delivery of 8+ application releases.",
+   "Integrated web applications with MySQL/MongoDB databases and RESTful APIs, enabling reliable, real-time data flow and reducing data sync errors between systems by approximately 15%."
   ],
 
   skills: [
-    "HTML5",
+  "HTML5",
   "CSS3",
   "JavaScript",
   "Responsive Design",
