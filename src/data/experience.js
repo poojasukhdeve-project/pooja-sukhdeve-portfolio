@@ -29,8 +29,9 @@ export const experiences = [
   duration: "May 2024 – Oct 2025",
 
   points: [
-    "Managed 50+ daily emails and multi-calendar scheduling for 3–5 team members while executing advanced Excel functions (VLOOKUP, pivot tables, macros) on 1,000+ entry datasets - reducing monthly reporting time by 40% and data errors by 30%.",
-    "Coordinated 350+ shipments via FedEx with full tracking, oversaw AV setup for conferences, and optimized inventory tracking systems - cutting supply costs by 20% while maintaining zero stockouts."
+    "Managed 50+ daily emails in Outlook with 98% 24-hour response rate; coordinated multi-calendar scheduling for 3-5 team members with 20+ weekly meetings; executed advanced Excel functions (VLOOKUP, pivot tables, macros) on 1,000+ entry datasets, reducing monthly reporting time by 40% and data errors by 30% through systematic validation protocols. Maintained accurate employee onboarding and offboarding data, updating personnel records, tracking access and equipment requirements, and ensuring timely documentation throughout employee transitions",
+    "Orchestrated distribution of 350+ SIS promotional materials via FedEx with full shipment tracking and delivery confirmation; coordinated conference technical arrangements including AV setup and equipment testing; optimized office supply inventory through tracking systems, reducing costs by 20% while maintaining zero stockouts.",
+    "Oversaw lifecycle management of 100+ documents with version control and digital filing systems, improving retrieval efficiency by 90%; facilitated internal/external stakeholder communications across email, phone, and virtual platforms as primary departmental contact point."
   ],
 
   skills: [
@@ -42,36 +43,42 @@ export const experiences = [
 },
 
 {
-  role: "Software Developer Intern",
+  role: "Software Developer Intern - AI & Full Stack",
   company: "ASVI Systems",
   duration: "May 2025 – Aug 2025",
 
   points: [
-    "Developed 3 full-stack web applications using React.js, Next.js, and Node.js with JWT authentication, serving 500+ daily users and preventing unauthorized access through role-based permissions",
-    "Built 8+ RESTful APIs with Express.js and Flask that processed 10,000+ requests daily, integrating MongoDB and PostgreSQL for efficient data retrieval and storage",
-    "Reduced page load times by 35% by debugging performance bottlenecks, implementing code optimization techniques, and refactoring inefficient database queries",
-    "Designed mobile-responsive UI components for 5 client projects, achieving 95%+ cross-browser compatibility and improving mobile user engagement",
-    "Automated deployment pipeline using Docker and GitHub Actions, cutting deployment time from 2 hours to 15 minutes and reducing production bugs by 60%",
-    "Collaborated with 4-person development team on code reviews and architecture decisions, contributing to 20+ pull requests with clean, maintainable code"
+    "Designed and developed 3 AI-powered chatbot applications using Python, OpenAI GPT, Hugging Face, LangChain, and Ollama, delivering context-aware conversational experiences across full-stack applications.", 
+    "Built Retrieval-Augmented Generation (RAG) pipelines using LangChain, embeddings, and vector databases, optimizing semantic search and document retrieval to improve relevant retrieval accuracy by 20%.", 
+    "Engineered NLP and LLM pipelines for document preprocessing, chunking, embedding generation, semantic search, prompt engineering, and response generation, reducing manual information-search time by 40%.", 
+    "Integrated and optimized OpenAI GPT, Hugging Face, and Ollama models, refining prompts, retrieval strategies, and inference workflows to reduce average chatbot response latency by 25%.", 
+    "Developed and optimized RESTful APIs using Python/Flask and Node.js/Express.js, connecting LLM/RAG services with React.js/Next.js applications and MongoDB/PostgreSQL, improving API response time by 20%.", 
+    "Deployed AI-powered full-stack applications on AWS using Docker, GitHub, and CI/CD workflows, automating build and deployment processes and reducing deployment time by 30%.", 
+    "Implemented authentication, API validation, error handling, debugging, and database optimization across frontend, backend, and AI components to improve application reliability and maintainability."
   ],
 
   skills: [
-    "JavaScript",
-    "Python",
-    "React.js",
-    "Next.js",
-    "Node.js",
-    "Express.js",
-    "Flask",
-    "MongoDB",
-    "PostgreSQL",
-    "Docker",
-    "Git",
-    "GitHub Actions",
-    "REST APIs",
-    "JWT",
-    "Responsive Design",
-    "CI/CD"
+   "Python",
+  "OpenAI GPT",
+  "Hugging Face",
+  "LangChain",
+  "RAG",
+  "NLP",
+  "Embeddings",
+  "Vector Databases",
+  "Ollama",
+  "AWS",
+  "Flask",
+  "React.js",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "PostgreSQL",
+  "REST APIs",
+  "Docker",
+  "GitHub",
+  "CI/CD"
   ]
 },
 
@@ -81,10 +88,12 @@ export const experiences = [
   duration: "Oct 2022 – Dec 2023",
 
   points: [
-    "Engineered scalable ETL pipeline using Python (Pandas, NumPy) and SQL, transforming raw data from 5+ sources into clean, analysis-ready datasets supporting 50+ business users and reducing data processing time by 50%",
-"Created automated reporting system with Python scheduled tasks and SQL views, reducing report generation time from 4 hours to 15 minutes and ensuring 99% data accuracy",
-"Built 8+ interactive Power BI dashboards with drill-down capabilities, DAX calculations, and real-time data refresh, visualizing metrics for sales, marketing, and operations teams",
-"Delivered advanced Excel solutions including dynamic dashboards, VBA automation, and what-if analysis tools that streamlined financial forecasting and budget planning processes"
+    "Built end-to-end data analytics pipelines using Python, Pandas, NumPy, and SQL to clean, transform, and analyze 100K+ records from multiple data sources for downstream reporting and analytics. ",
+    "Developed and optimized complex SQL queries using CTEs, joins, subqueries, window functions, and aggregations to analyze transactional data and generate business-critical KPIs. ",
+    "Designed 5+ interactive Power BI dashboards to monitor operational KPIs, trends, and performance metrics, enabling stakeholders to make faster, data-driven decisions. ",
+    "Automated data cleaning, transformation, and reporting workflows using Python and Pandas, reducing manual data-processing effort by approximately 30%. ",
+    "Performed exploratory data analysis (EDA) and statistical analysis using Pandas, NumPy, Matplotlib, and Scikit-learn to uncover trends, correlations, anomalies, and actionable business insights. ",
+    "Implemented data-quality and validation pipelines across SQL databases and REST API data sources, identifying missing values, duplicates, schema inconsistencies, and anomalous records before downstream analysis."
   ],
 
   skills: [
@@ -95,6 +104,35 @@ export const experiences = [
     "Data Analysis",
     "Statistical Analysis",
     "Data Cleaning"
+  ]
+},
+
+{
+  role: "Data Analyst Intern",
+  company: "GlobalShala",
+  duration: "July 2022 – Sept 2022",
+
+  points: [
+    "Analyzed and transformed 10,000+ data records from multiple sources using Python, Pandas, NumPy, and Excel, preparing structured datasets for analysis and reporting.",
+    "Performed exploratory data analysis (EDA) across 5+ datasets, identifying trends, correlations, anomalies, and data-quality issues using Pandas, NumPy, and Matplotlib.",
+    "Developed 3+ interactive dashboards and visual reports using PowerBI, translating complex datasets into clear KPIs and actionable insights.",
+    "Wrote SQL queries using joins, aggregations, filtering, and subqueries to extract and analyze data for 5+ research and analytics requirements.",
+    "Built reusable Python data-cleaning workflows to identify missing values, duplicate records, outliers, and inconsistent formats, streamlining dataset preparation for downstream analysis.",
+    "Created 15+ charts and analytical visualizations using Matplotlib, Tableau, and Excel to communicate trends, distributions, and relationships to technical and non-technical audiences.",
+    "Collaborated on 5+ research and analytics initiatives, translating project requirements into data analysis, visualization, and dashboard solutions."
+  ],
+
+  skills: [
+    "Python",
+    "SQL",
+    "Power BI",
+    "Excel",
+    "Data Analysis",
+    "Statistical Analysis",
+    "Data Cleaning",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
   ]
 },
 
