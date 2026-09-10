@@ -426,21 +426,6 @@ TOOLS & <span className="text-black">SOFTWARE</span>
   </div>
 </div>
 
-{/* Trello */}
-<div className="flex items-center gap-4">
-  <div className="bg-white p-2 rounded-lg shadow">
-    <img
-      src={`${import.meta.env.BASE_URL}icons/icons8-trello-96.png`}
-      className="w-9 h-9"
-    />
-  </div>
-
-  <div>
-    <h3 className="text-2xl font-semibold">Trello</h3>
-    <p className="text-gray-300 text-sm">Project Management</p>
-  </div>
-</div>
-
 </div>
 
 </section>
