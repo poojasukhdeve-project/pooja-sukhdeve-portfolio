@@ -1,4 +1,35 @@
 export const experiences = [
+{
+  role: "Business Analyst Intern - Team Coordinator",
+  company: "Aperiohub",
+  duration: "Sept 2026 – Ongoing",
+
+  points: [
+    "Coordinate data tracking and reporting across 4 cross-functional workstreams, consolidating deliverables and synthesizing analytical findings to support data-driven project decision-making.",
+    "Conduct financial and market data analysis by collecting and structuring data from funding rounds, regulatory filings, market research sources, peer-company datasets, and industry benchmarks.",
+    "Build 3-scenario valuation models (Bull/Base/Bear) using EV/Revenue multiples and comparable-company analysis to quantify a range of financial outcomes.",
+    "Perform scenario and sensitivity analysis on valuation and return metrics across varying entry, exit, and holding-period assumptions to identify key value and risk drivers.",
+    "Benchmark financial metrics and valuation multiples against public-company comparables and recent IPO transactions to derive relative valuation insights.",
+    "Apply quantitative analysis and the VC valuation method to calculate implied entry valuations and evaluate target-return scenarios.",
+    "Collaborate with Business Quality, Market Sizing, and Risk teams to synthesize cross-functional analysis into data-backed BUY/HOLD/PASS investment recommendations."
+  ],
+
+
+  skills: [
+    "Data Analysis",
+    "Financial Analysis",
+    "Financial Modeling",
+    "Quantitative Analysis",
+    "Valuation Modeling",
+    "Market Research",
+    "Data-Driven Decision Making",
+    "Business Analysis",
+    "Financial Valuation",
+    "Scenario Analysis",
+    "Competitive Benchmarking",
+    "Risk Analysis"
+  ]
+},
 
 {
   role: "Data Research Analyst",

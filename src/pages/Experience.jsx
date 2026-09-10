@@ -3,7 +3,7 @@ import { experiences } from "../data/experience";
 export default function Experience() {
 
   const leftExperiences = experiences.slice(0, 4);
-  const rightExperiences = experiences.slice(4, 8);
+  const rightExperiences = experiences.slice(4, 9);
 
   const ExperienceCard = ({ exp, number }) => (
     <div className="relative flex gap-6">
