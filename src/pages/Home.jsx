@@ -139,19 +139,19 @@ ABOUT <span className="text-gray-400">ME</span>
 <div className="space-y-4 text-[16px] leading-6 text-gray-700">
 
   <p>
-    💻 Full-Stack Software Engineer & Data Analytics Enthusiast with a Master’s in Computer Science from Boston University. I enjoy building scalable web applications, analytics platforms, and intelligent systems that combine modern software engineering with data-driven insights.
+    💻 Data Analyst | AI & ML Enthusiast | MS Computer Science, Boston University
+I turn complex data into clear, decision-ready insights - combining financial analysis, machine learning, and full-stack engineering to build data-driven products that create real impact.
   </p>
 
   <p>
-    🚀 My experience includes developing full-stack applications, REST APIs, cloud-native systems, interactive dashboards, and machine learning solutions using technologies such as React, Next.js, Node.js, Python, TypeScript, SQL, MongoDB, PostgreSQL, and AWS.
+    📊 My experience spans financial and market analysis, valuation modeling, data pipelines, interactive dashboards, and machine learning solutions, using technologies such as Python, SQL, Pandas, NumPy, Power BI, Tableau, React.js, Node.js, MongoDB, PostgreSQL, and AWS.
   </p>
 
   <p>
-    📊 I have worked on projects involving financial analytics dashboards, healthcare predictive modeling, AI-powered applications, NLP chatbots, business intelligence systems, and interactive data visualization platforms.
-  </p>
+    🤖 I've worked on projects involving valuation and financial modeling, AI-powered chatbot applications, RAG pipelines, NLP systems, business intelligence dashboards, and large-scale data analytics pipelines processing 100K+ records.  </p>
 
   <p>
-    ⚡ Previously, I worked as a Software Developer Intern at ASVI Systems, where I developed AWS-based applications and implemented CI/CD pipelines that improved deployment efficiency and system reliability.
+    ⚡ Currently, I work as a Business Analyst Intern – Team Coordinator at AperioHub, where I coordinate cross-functional workstreams, conduct financial and market analysis, and build 3-scenario valuation models to support data-driven investment decisions. Alongside this, I serve as a Data Research Analyst at Boston University, developing accessible, inclusive Python curriculum for visually impaired learners.
   </p>
 
   <div>
@@ -161,6 +161,7 @@ ABOUT <span className="text-gray-400">ME</span>
 
     <ul className="list-disc pl-10 space-y-2">
       <li>Full-Stack Software Engineering</li>
+      <li>Financial & Market Analysis</li>
       <li>Data Analytics & Visualization</li>
       <li>Machine Learning & AI Applications</li>
       <li>Cloud Computing & Scalable Systems</li>
@@ -169,7 +170,7 @@ ABOUT <span className="text-gray-400">ME</span>
   </div>
 
   <p>
-    🌱 Currently seeking opportunities in Software Engineering, Data Analytics, and AI/ML roles where I can contribute to impactful products, solve challenging problems, and continue growing as an engineer.
+    🌱 Currently seeking opportunities in Data Analytics, Data Science, and AI/ML roles where I can apply my analytical rigor and technical skills to build impactful, data-driven products.
   </p>
 
 </div>
