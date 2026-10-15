@@ -42,10 +42,10 @@ export default function Projects() {
 
             {[
               { label: "All", value: "all" },
-              { label: "Full-Stack", value: "fullstack" },
+              { label: "Data Analytics & Data Science", value: "analytics&science" },
               { label: "AI & ML", value: "ai" },
               { label: "Quant Finance", value: "finance" },
-              { label: "Data Analytics", value: "analytics" },
+              { label: "Full-Stack", value: "fullstack" },
             ].map((btn) => (
               <button
                 key={btn.value}
