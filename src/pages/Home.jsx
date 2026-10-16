@@ -605,25 +605,32 @@ Live Demo
 <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-xl hover:scale-105 transition">
 
 <h3 className="text-2xl font-bold mb-2">
-SPY ETF Machine Learning Trading Strategy
+RetailIQ
 </h3>
 
 <p className="text-gray-300 mb-4">
-Can machine learning beat the market? This project explores that 
-question by building a quantitative trading system using SPY ETF data, 
-technical indicators, and predictive models, with strategy performance validated through backtesting.
+Retail analytics and demand forecasting dashboard built on 11.1M Walmart sales records, 
+covering KPIs, store and product performance, ABC classification, and forecast model 
+comparison with SQL, DuckDB, and Streamlit.
 </p>
 
 <p className="text-sm text-gray-400 mb-4">
-Python • Pandas • NumPy • Scikit-Learn • Random Forest • Linear Regression • Quantitative Finance • Algorithmic Trading • Backtesting
+Python • SQL • DuckDB • Pandas • Streamlit • Plotly • XGBoost • LightGBM
 </p>
 
 <div className="flex gap-4">
 <a
-href="https://github.com/poojasukhdeve-project/SPY-ETF-Machine-Learning-Trading-Strategy"
+href="https://github.com/poojasukhdeve-project/RetailIQ"
 className="px-4 py-2 bg-white text-black rounded"
 >
 GitHub
+</a>
+
+<a
+href="https://retailiq-hnxcr5qvazmbq45nbq9bar.streamlit.app/"
+className="px-4 py-2 border border-white rounded"
+>
+Live Demo
 </a>
 
 </div>
@@ -688,16 +695,16 @@ WORK <span className="text-black">EXPERIENCE</span>
 <div className="absolute -left-3 w-6 h-6 bg-white rounded-full"></div>
 
 <h3 className="text-xl font-semibold">
-2024 — Data Research Analyst
+Sept 2026 – Present: Business Analyst – Team Coordinator
 </h3>
 
 <p className="text-gray-300">
-Boston University
+Aperiohub
 </p>
 
 <p className="text-gray-400 text-sm mt-2">
-Developing Python visualization modules for visually
-impaired users using pattern-based graphics.
+Building Bull/Base/Bear valuation models and comparable-company analysis, 
+and turning cross-functional findings into BUY/HOLD/PASS investment recommendations.
 </p>
 </div>
 
@@ -706,7 +713,7 @@ impaired users using pattern-based graphics.
 <div className="absolute -left-3 w-6 h-6 bg-white rounded-full"></div>
 
 <h3 className="text-xl font-semibold">
-2025 — Software Developer Intern
+May 2025 – Aug 2025: Software Developer Intern, AI & Full Stack 
 </h3>
 
 <p className="text-gray-300">
@@ -720,6 +727,23 @@ to automate deployments and improve performance.
 </div>
 
 
+{/* Experience 3 */}
+<div className="ml-8">
+<div className="absolute -left-3 w-6 h-6 bg-white rounded-full"></div>
+
+<h3 className="text-xl font-semibold">
+Sept 2024 – Present: Data Research Analyst
+</h3>
+
+<p className="text-gray-300">
+ Boston University
+</p>
+
+<p className="text-gray-400 text-sm mt-2">
+Developing Python learning materials and accessible visual 
+and tactile representations for visually impaired learners, documented in LaTeX.
+</p>
+</div>
 {/* Experience 4 */}
 <div className="ml-8">
 <div className="absolute -left-3 w-6 h-6 bg-white rounded-full"></div>
@@ -733,8 +757,8 @@ Tech Zenesis
 </p>
 
 <p className="text-gray-400 text-sm mt-2">
-Built Python data pipelines and Power BI dashboards,
-conducted A/B testing and user analytics.
+Built Python and SQL pipelines on 100K+ records and 5+ Power BI 
+dashboards for operational KPIs, reducing manual processing effort by about 30%.
 </p>
 </div>
 
